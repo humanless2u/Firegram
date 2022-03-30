@@ -22,6 +22,7 @@ const UploadForm = () => {
     <form>
       <label>
         <input type="file" onChange={changeHandler} />
+        <span>+</span>
       </label>
       <div className="output">
         <span>{error && <div className="error">{error}</div>}</span>
